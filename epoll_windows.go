@@ -4,7 +4,7 @@
 package epoller
 
 import (
-	"github.com/smallnest/epoller/wepoll"
+	"github.com/reallyoldfogie/epoller/wepoll"
 )
 
 var _ Poller = (*Epoll)(nil)
